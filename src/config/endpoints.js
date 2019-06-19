@@ -3,7 +3,7 @@ const ENDPOINTS = Object.freeze({
   orderStatuses: '/orders/statuses',
   pay: '/refunds/pay',
   productVariations: '/products/:product_id/variations',
-  config: '/connector'
+  config: '/connector',
 });
 
 function getEndpoints() {
