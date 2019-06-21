@@ -1,12 +1,12 @@
 /**
- * Status constructor
+ * Order status constructor
  * @param {object} props
  * @param {string} props.key
  * @param {string} props.description
  * @constructor
  */
-function Status(props) {
-  if (typeof props.key === 'string' && typeof props.value === 'string') {
+function OrderStatus(props) {
+  if (typeof props.key === 'string' && typeof props.description === 'string') {
     this.key = props.key;
     this.description = props.description;
   } else {
@@ -14,4 +14,4 @@ function Status(props) {
   }
 }
 
-module.exports = Status;
+module.exports = OrderStatus;
